@@ -1,0 +1,20 @@
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num;
+    float raiz;
+
+    printf("Ditifite um número meu nobre: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0)
+    {
+        raiz = sqrt(num);
+        printf("A raiz quadrada é: %.3f\n", raiz);
+    }
+    
+    return 0;
+}
