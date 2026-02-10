@@ -1,3 +1,12 @@
+/*Similar ao while
+Diferença crucial:
+SIntaxe mais complexa
+Tudo fica embutido no comando*/
+/*Sintaxe:
+    for(<ici.>; <cond.>; <incr.>){
+        <bloco_de_comandos>
+        }*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,22 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*Estruturas de dados unidimensionais
+Índice único controla as posições
+Sintaxe de declaração:
+    <tipo> <nome>[<tamanho>]*/
+
 int main()
 {
-    int num[10];
+    int v[5];
+    float m;
 
 system("clear");
 
-    for (int i = 0; i <= 10; i++)
-    {   
-        num[i] = i + 10;
-        
-        
-    }
-    for (int j = 0; j <= 10; j++)
-    {
-        printf("Valor dos vetores: %d\n", num [j]);
-    }
+    v[0]= 50;
+    v[1]= 40;
+    v[2]= 30;
+    v[3]= 20;
+    v[4]= 10;
+    
+    m = (v[0] + v[1] + v[2] + v[3] + v[4]) / 5; /*Média aritimética simples  "Soma de todos os termos/Quantidade de termos"*/
+
+    printf("Resultado: %f\n", m);
     
         return 0;
 }
