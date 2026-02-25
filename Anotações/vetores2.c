@@ -9,7 +9,7 @@ int main()
     int i;
     float s = 0;
 
-    for(i=0;i<5;i++){
+    for(i=0;i<6;i++){
         s += v[i];
     }
 
